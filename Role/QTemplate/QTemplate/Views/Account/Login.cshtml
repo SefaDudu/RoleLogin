@@ -1,0 +1,12 @@
+﻿
+@{
+	ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm(FormMethod.Post))
+{
+	@Html.TextBox("username")
+	@Html.Password("password")
+
+	<button>Giriş Yapm</button>
+}  
